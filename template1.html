@@ -18,27 +18,90 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1+Code&family=Special+Elite&display=swap" rel="stylesheet">
 
 <style>
-    .sienna-bg {width: 560px;
-        background-image: linear-gradient(45deg, #557cb4 1.22%, #93b4e6 1.22%, #93b4e6 50%, #557cb4 50%, #557cb4 51.22%, #93b4e6 51.22%, #93b4e6 100%);
-        background-size: 57.98px 57.98px;
-        outline: 1px solid #3eb6d4;
-        outline-offset: 4px;
-        box-shadow: 2px 2px #000;
+    .sienna-bg1 {width: 580px;
+        background-image: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(85,124,180,1) 75%, rgba(85,124,180,1) 100%);
         border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 3px 3px #000;
     }
 
-    .sienna-post-box {width: ;
+    .sienna-bg2 {width: 520px;
+        background-color: #eee;
+        position: relative;
+        overflow: hidden;
+        outline: 2px solid #0d3671;
+        outline-offset: -2px;
+    }
 
+    .top1, .bottom1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;}
+
+    .top1:before, .top1:after, .bottom1:before, .bottom1:after{
+    content:" ";
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #557cb4;
+    border: solid #0d3671 3px;
+    border-radius: 20px; }
+
+    .top1:before {
+    top:-35px;
+    left:-35px;}
+
+    .top1:after {
+    top: -35px;
+    right: -35px;}
+
+    .bottom1:before {
+    bottom:-35px;
+    left:-35px;}
+
+    .bottom1:after {
+    bottom: -35px;
+    right: -35px;}
+
+    .top1, .bottom1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;}
+
+    .sienna-post-box {width: 500px;
+        background-color: #e9e9e9;
+        border-radius: 10px;
+        box-shadow: 3px 3px #000;
+
+    }
+
+    .sienna-post-txt {font-family: 'Open Sans';
+        font-size: 14px;
+        text-align: justify;
+        padding: 20px 20px;
     }
 
 
 </style>
 
 <center>
-    <div class="sienna-bg">
+    <div class="sienna-bg1">
+            <div class="sienna-bg2">
+                <div class="top1"></div>
+        
+        <div class="sienna-post-txt">
         <p>Post vai aqui. Lorem ipsum dolor sit amet...</p>
         <p> Aqui vai mais texto, <b>teste de negrito</b>. Lorem ipsum dolor sit amet...</p>
         <p> Mais um parágrafo, testando mais texto... <i>Teste de itálico.</i> Lorem ipsum dolor sit amet...</p>
+    
+    </div>
+    <div class="bottom1"></div>
+    </div>
     </div>
 </center>
 [/dohtml]
