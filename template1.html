@@ -18,8 +18,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1+Code&family=Special+Elite&display=swap" rel="stylesheet">
 
 <style>
+    @font-face {
+    font-family:'YoungMorin';
+    src: url('https://cdn.jsdelivr.net/gh/giozsett/projeto-site-rpg@dia2404/fonts/YoungMorinRegular-JRzjm.ttf') format('opentype');}
+
+    @font-face {
+        font-family: 'zendigone';
+        src: url('https://cdn.jsdelivr.net/gh/giozsett/flor-github@7ed0fbe514865560118cae3aafa62e6418457ba8/GardenFlowers-ZValm.ttf');
+        src: url('https://cdn.jsdelivr.net/gh/giozsett/flor-github@7ed0fbe514865560118cae3aafa62e6418457ba8/GardenFlowers-ZValm.ttf') format('truetype'),
+        font-weight: normal;
+        font-style: normal;} 
+
     .sienna-bg1 {width: 580px;
-        background-image: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(85,124,180,1) 75%, rgba(85,124,180,1) 100%);
+        background-image: radial-gradient(circle, rgba(148,187,233,1) 0%, rgb(84, 125, 181) 75%, rgba(85,124,180,1) 100%);
         border-radius: 10px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -86,11 +97,58 @@
         padding: 20px 20px;
     }
 
+    .topo-bg {width: 500px;
+        height: 120px;
+        background-color: #bbc5e6;
+        position: relative;
+        top: -3px;
+        clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    }
+
+    .topo-shadow {width: 500px;
+        height: 120px;
+        clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+        background-color: #000;
+        margin-bottom: 20px;
+        margin-right: 180px;
+    }
+
+    .img-borde {width: 108px;
+        height: 108px;
+        background-color: #0d3671;
+        border-radius: 100%;
+        position: relative;
+        right: 180px;
+        top: 8px;
+    }
+
+    .img-container {width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-size: cover;
+        background-image: url('https://64.media.tumblr.com/f6276260410ece032487e0d8d01c8140/3a4a5b86515fbc67-46/s500x750/1e199777fa43dfba50f7131c3e1dd3e70b6fd7f3.jpg');
+        filter: grayscale();
+        position: relative;
+        top: 4px;
+    }
+
+    .topo-tags {font-family: 'Poppins';
+        font-size: 17px;
+        position: relative;
+        top: -60px;
+        left: 0px;
+        font-weight: bold;
+    }
 
 </style>
 
 <center>
     <div class="sienna-bg1">
+        <div class="topo-shadow">
+        <div class="topo-bg">
+            <div class="img-borde"><div class="img-container"></div></div>
+            <div class=topo-tags>Para @[Fulano de tal]</div></div></div>
+
             <div class="sienna-bg2">
                 <div class="top1"></div>
         
