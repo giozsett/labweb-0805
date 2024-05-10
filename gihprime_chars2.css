@@ -1,0 +1,72 @@
+#gihcharname {--eleanor1: #ad4242;
+    --eleanor2: #701616;
+    --eleanor3: #faebeb;
+    --eleanor4: #420000;
+    --sienna1: #557cb4;
+    --sienna2: #174079;
+    --sienna3: #e4efff;
+    --sienna4: #003580;
+    width: 600px;
+    margin: auto;}
+
+#gihcharname .bg1 {outline: 2px solid #000;
+    background-image: radial-gradient(circle, #ffffff 0%,  var(--sienna3) 100%);
+    padding-top: 40px;
+    outline-offset: -10px;}
+
+#gihcharname .heaader {width: 590px;
+    height: 120px;
+    margin-bottom: 10px;}
+
+#gihcharname .heaader hr {height: 2px;
+    color: var(--sienna1);
+    background-color: var(--sienna1);
+    margin-top: -40px;
+    border: 1px solid #000;}
+
+
+#gihcharname .gifbox {width: 90px;
+    height: 90px;
+    border: 3px solid var(--sienna3);
+    outline: 2px solid var(--sienna4);
+    outline-offset: 8px;
+    box-shadow: 8px 8px #000;}
+
+#gihcharname .tagss{font-family: 'Space Mono';
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: justify;
+    margin-left: 25px;
+    position: relative;
+    top: 55px;
+    text-transform: lowercase;
+    color: #000;}
+
+#gihcharname .roupanotas {font-family: 'Space Mono';
+    font-size: 15px;
+    margin-left: 300px;
+    position: relative;
+    margin-top: -10px;
+    font-weight: bolder;
+    color: var(--sienna2);
+    text-transform: uppercase;
+    font-size: 20px;}
+
+
+/**TEXTO DO POST**/
+#gihcharname .postcontainer {width: 590px;}
+ 
+#gihcharname .postcontainer-txt {font-family: 'Quicksand';
+    text-align: justify;
+    font-size: 15px;
+    padding: 40px;
+    font-weight: 500;}
+
+#gihcharname .postcontainer-txt b {color: var(--sienna1);
+    font-weight: 700;
+    font-size: 18px;}
+
+#gihcharname .postcontainer-txt i {color: var(--sienna2);
+    font-weight: 700;
+    font-size: 17px;}
