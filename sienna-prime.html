@@ -32,8 +32,8 @@
 
     
     /**FUNDO TEMPLATE E POST**/
-    .sienna-bg1 {width: 580px;
-        background-image: radial-gradient(circle, rgba(148,187,233,1) 0%, rgb(84, 125, 181) 75%, rgba(85,124,180,1) 100%);
+    .sienna-bg1 {width: 600px;
+        background-image: radial-gradient(circle, rgba(213,238,255,1) 0%, rgba(151,200,232,1) 59%, rgba(153,202,233,1) 72%, rgba(140,193,228,1) 91%);
         border-radius: 10px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -41,7 +41,7 @@
         overflow: hidden;
     }
 
-    .sienna-bg2 {width: 520px;
+    .sienna-bg2 {width: 560px;
         background-color: #ffffff;
         position: relative;
         overflow: hidden;
@@ -56,12 +56,21 @@
     top:0;
     left:0;}
 
-    .top1:before, .top1:after, .bottom1:before, .bottom1:after{
+    .top1:before, .top1:after{
     content:" ";
     position:absolute;
     width: 50px;
     height: 50px;
-    background-color: #557cb4;
+    background-color: #99cae9;
+    border: solid #0d3671 3px;
+    border-radius: 20px; }
+
+    .bottom1:before, .bottom1:after{
+    content:" ";
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #97c8e8;
     border: solid #0d3671 3px;
     border-radius: 20px; }
 
@@ -92,18 +101,10 @@
     /**IMAGEM E TAG NO TOPO**/
     .topo-bg {width: 500px;
         height: 120px;
-        background-color: #53a9f0;
-        position: relative;
-        top: -4px;
-        clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
-    }
-
-    .topo-shadow {width: 500px;
-        height: 120px;
-        clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
-        background-color: #000;
+        background-color: #005092;
+        margin-right: 100px;
         margin-bottom: 40px;
-        margin-right: 184px;
+        clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
     }
 
     .img-borde {width: 108px;
@@ -140,6 +141,12 @@
         padding: 20px 20px;
     }
 
+    .sienna-post-txt b{font-size:17px;
+        color: #005092;
+        font-weight: bolder;
+        font-family: 'Lato';
+    }
+
     /**NOTAS**/
     .bottom-container {
         width: 500px;
@@ -160,14 +167,14 @@
         text-transform: uppercase;
     }
 
+
 </style>
 
 <center>
     <div class="sienna-bg1">
-        <div class="topo-shadow">
         <div class="topo-bg">
             <div class="img-borde"><div class="img-container"></div></div>
-            <div class=topo-tags>Para @[Fulano de tal]</div></div></div>
+            <div class=topo-tags>Para @[Fulano de tal]</div></div>
 
             <div class="sienna-bg2">
                 <div class="top1"></div>
@@ -182,7 +189,7 @@
         <p> Mais um parágrafo, testando mais texto... <i>Teste de itálico.</i> Lorem ipsum dolor sit amet...</p>
     
     </div><div class="bottom1"></div></div>
-    <div class="bottom-container"><div class="bottom-container-txt">vestindo | notas</div></div>
+    <div class="bottom-container"><div class="bottom-container-txt">vestindo  |  notas</div></div>
     </div>
     </div>
 </center>
